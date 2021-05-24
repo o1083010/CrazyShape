@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
-        img.setOnLongClickListener (object: View.OnLongClickListener{
+        imgNext.setOnLongClickListener (object: View.OnLongClickListener{
             override fun onLongClick(v: View?): Boolean {
 
                 intent = Intent(this@MainActivity, GameActivity::class.java)
