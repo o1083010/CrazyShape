@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
 
         val shape =
             intArrayOf(R.drawable.circle, R.drawable.square, R.drawable.star, R.drawable.triangle)
-        val i: Int = (0..3).random()
+        val i: Int = (1..N).random()
         imgNext.setImageResource(shape[i])
 
         Toast.makeText(this, "作者:王琪雯", Toast.LENGTH_LONG).show()
